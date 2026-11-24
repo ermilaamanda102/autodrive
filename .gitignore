@@ -1,0 +1,43 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+
+# Build output
+dist/
+build/
+
+# Golang
+*.exe
+*.exe~
+*.test
+*.out
+/backend/app
+/backend/autodrive
+
+# Logs
+*.log
+npm-debug.log*
+
+# Credentials
+*.pem
+*.key
+
+# Editor
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
